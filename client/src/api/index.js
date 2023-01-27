@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://memoriesolamide.herokuapp.com/'});
+const API = axios.create({ baseURL: 'https://erin-upset-fawn.cyclic.app'});
 
 //required for backend authorization middleware to work 
 //NB: the interceptors most occur before the request is carried out by other crud functions becuase this sends a token to the backend to validate the user 
